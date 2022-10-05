@@ -1,0 +1,35 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+#d1 {
+    font-size: 20pt;
+    background-color: rgb(16, 108, 30);
+    grid-row-end: span 3;
+}
+
+#d2 {
+    font-size: 20pt;
+    background-color: rgb(16, 108, 30);
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+#d3 {
+    font-size: 20pt;
+    background-color: rgb(246, 13, 13);
+}
+
+#d4 {
+    font-size: 20pt;
+    background-color: rgb(246, 126, 13);
+}
+
+#d5 {
+    font-size: 20pt;
+    background-color: rgb(16, 108, 30);
+    grid-row-end: span 2;
+}
